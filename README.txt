@@ -1,5 +1,14 @@
 DATA SET: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
+neural_net.py :
+contains functions to load data from directory, create a neural network
+and a main function to fit the model on the loaded data.
+
+predict.py :
+used to classify the images by passing them into the model.
+
+pneumonia.h5 is a trained model.
+
 data should be stored as follows:
 
 chest_xray
